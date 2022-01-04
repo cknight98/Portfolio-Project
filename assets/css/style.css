@@ -73,15 +73,17 @@ a {
 }
 
 .larger-image {
-    flex: 100%;
-    height: 300px;
-    width: 100%;
-    object-fit: cover;
-    display: block;
-    box-sizing: border-box;
-    padding: 0px 5px;
+    flex: 5;
+
 }
 
+.larger-image img{
+    height: 300px;
+    width: 100%;
+    border: solid thick darkblue;
+    margin: 10px;
+
+}
 .section-image {
     flex: 50%;
     max-height: 150px;
@@ -89,22 +91,38 @@ a {
     object-fit: cover;
     display: block;
     box-sizing: border-box;
-    padding: 10px 5px 0px 5px;
+    border: solid thick darkblue;
+    margin: 10px;
+
 }
 
 .row {
     display: flex;
+    font-weight: bold;
+    vertical-align: top;
 }
 
-.main-content-title {
+.container-1 {
+    display: flex;
+    flex-wrap: wrap;
+    margin-bottom: 50px;
+    margin-left: 50px;
+    margin-right: 50px;
+}
+
+.box-1 {
+    flex: 1;
     color: darkblue;
     font-size: 48px;
     font-family: Arial, Helvetica, sans-serif;
-    float: left;
-    border-right: solid thick darkblue;
-    margin-left: 50px;
 }
 
-.main-content {
-    
+.box-2 {
+    flex: 1;
+    border-left: solid thick darkblue;
 }
+
+.box-3 {
+ flex: 5;
+}
+
