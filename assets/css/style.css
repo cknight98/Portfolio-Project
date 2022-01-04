@@ -74,6 +74,7 @@ a {
 
 .larger-image {
     flex: 5;
+    margin-right: 20px;
 
 }
 
@@ -84,8 +85,9 @@ a {
     margin: 10px;
 
 }
+
 .section-image {
-    flex: 50%;
+    flex: 100%;
     max-height: 150px;
     width: 100%;
     object-fit: cover;
@@ -126,3 +128,15 @@ a {
  flex: 5;
 }
 
+.link-box{
+    flex: 1;
+    margin-top: 50px;
+}
+.link-container {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.image-text{
+       text-align: center;
+}
